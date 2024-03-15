@@ -8,6 +8,8 @@ metadata:
    - component
    - guest
    - tutorial
+  annotations:
+    datadoghq.com/service-id: backstage_plugins_repo
 spec:
   type: service
   owner: user:juvi07
