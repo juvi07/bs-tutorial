@@ -4,6 +4,9 @@ metadata:
   name: "Tutorial"
   annotations:
     backstage.io/techdocs-ref: dir:.
+    datadoghq.com/service-id: backstage_plugins_repo
+  tags: 
+    - joshTag
 spec:
   type: service
   owner: user:guest
