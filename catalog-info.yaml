@@ -6,7 +6,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     datadoghq.com/service-id: backstage_plugins_repo
   tags: 
-    - joshTag
+    - "joshTag"
 spec:
   type: service
   owner: user:guest
