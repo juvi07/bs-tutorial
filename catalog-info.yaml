@@ -1,13 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "Tutorial"
-  annotations:
-    backstage.io/techdocs-ref: dir:.
-    datadoghq.com/service-id: backstage_plugins_repo
-  tags: 
-    - "joshTag"
+  name: "tutorial-in-github"
+  description: The best tutorial component
+  tags:
+   - josh
+   - component
+   - guest
+   - tutorial
 spec:
   type: service
-  owner: user:guest
+  owner: user:juvi07
   lifecycle: experimental
