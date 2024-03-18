@@ -10,6 +10,9 @@ metadata:
    - tutorial
   annotations:
     datadoghq.com/service-id: backstage_plugins_repo
+    newrelic.com/tag: backstage:josh-teg # Used in entity-search
+    newrelic.com/account-id: ${NEWRELIC_ACCOUNT_ID} # Used in policies-search
+    newrelic.com/entity-guid: ${NEWRELIC_ENTITY_GUID} # Used in entity
 spec:
   type: service
   owner: user:juvi07
