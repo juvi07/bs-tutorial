@@ -9,6 +9,7 @@ metadata:
    - guest
    - tutorial
   annotations:
+    backstage.io/techdocs-ref: dir:.
     datadoghq.com/service-id: backstage_plugins_repo
     newrelic.com/tag: backstage::josh-teg # Used in entity-search
     newrelic.com/account-id: ${NEWRELIC_ACCOUNT_ID} # Used in policies-search
