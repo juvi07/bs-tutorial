@@ -6,7 +6,6 @@ metadata:
   tags:
    - josh
    - component
-   - guest
    - tutorial
   annotations:
     backstage.io/techdocs-ref: dir:.
