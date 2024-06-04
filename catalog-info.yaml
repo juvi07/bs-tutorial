@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "tutorial-in-github"
-  description: The best tutorial component
+  name: "Github-Tutorial"
+  description: An example entity component in backstage
   tags:
    - josh
    - component
@@ -10,10 +10,10 @@ metadata:
    - tutorial
   annotations:
     backstage.io/techdocs-ref: dir:.
-    datadoghq.com/service-id: backstage_plugins_repo
-    newrelic.com/tag: backstage::josh-teg # Used in entity-search
-    newrelic.com/account-id: ${NEWRELIC_ACCOUNT_ID} # Used in policies-search
-    newrelic.com/entity-guid: ${NEWRELIC_ENTITY_GUID} # Used in entity
+    # datadoghq.com/service-id: backstage_plugins_repo
+    # newrelic.com/tag: backstage::josh-teg # Used in entity-search
+    # newrelic.com/account-id: ${NEWRELIC_ACCOUNT_ID} # Used in policies-search
+    # newrelic.com/entity-guid: ${NEWRELIC_ENTITY_GUID} # Used in entity
 spec:
   type: service
   owner: user:juvi07
