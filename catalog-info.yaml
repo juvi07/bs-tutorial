@@ -15,5 +15,5 @@ metadata:
     # newrelic.com/entity-guid: ${NEWRELIC_ENTITY_GUID} # Used in entity
 spec:
   type: service
-  owner: user:juvi07
+  owner: spotify-portal-demo/eagles
   lifecycle: experimental
