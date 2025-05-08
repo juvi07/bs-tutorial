@@ -5,7 +5,7 @@ metadata:
   description: Testing dev folder doc
   annotations:
     backstage.io/techdocs-ref: dir:.
-    backstage.io/source-location: url:https://github.com/juvi07/bs-tutorial/blob/master/dev/catalog-info.yaml
+    backstage.io/source-location: url:https://github.com/juvi07/bs-tutorial/blob/master/dev/
 spec:
   type: service
   owner: group:default/eagles
